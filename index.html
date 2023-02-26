@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Dynamic Tabs</title>
+</head>
+
+<body>
+    <main>
+        <h1>Dynamic Tabs in Vanilla JavaScript</h1>
+
+        <div class="b-example">
+
+            <!-- Dynamic Tabs Component -->
+            <div class="c-tabs">
+                <!-- Navigation -->
+                <ul class="c-tabs__nav" role="tablist">
+                    <li class="c-tabs__nav-item" role="presentation">
+                        <button
+                            class="c-tabs__nav-btn c-tabs__nav-btn--active"
+                            id="tab1"
+                            data-target="#panel1"
+                            type="button"
+                            role="tab"
+                            aria-controls="panel1"
+                            aria-selected="true"
+                        >
+                            Tab <span>1</span>
+                        </button>
+                    </li>
+                    <li class="c-tabs__nav-item" role="presentation">
+                        <button
+                            class="c-tabs__nav-btn"
+                            id="tab2"
+                            data-target="#panel2"
+                            type="button"
+                            role="tab"
+                            aria-controls="panel2"
+                        >
+                            Tab <span>2</span>
+                        </button>
+                    </li>
+                    <li class="c-tabs__nav-item" role="presentation">
+                        <button
+                            class="c-tabs__nav-btn"
+                            id="tab3"
+                            data-target="#panel3"
+                            type="button"
+                            role="tab"
+                            aria-controls="panel3"
+                        >
+                            Tab <span>3</span>
+                        </button>
+                    </li>
+                </ul>
+
+                <!-- Panels -->
+                <div class="c-tabs__panels">
+                    <div
+                        class="c-tabs__panels-item c-tabs__panels-item--active"
+                        id="panel1"
+                        role="tabpanel"
+                        aria-labelledby="tab1"
+                    >
+                        <h2>Panel 1</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    </div>
+                    <div
+                        class="c-tabs__panels-item"
+                        id="panel2"
+                        role="tabpanel"
+                        aria-labelledby="tab2"
+                    >
+                        <h2>Panel 2</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    </div>
+                    <div
+                        class="c-tabs__panels-item"
+                        id="panel3"
+                        role="tabpanel"
+                        aria-labelledby="tab3"
+                    >
+                        <h2>Panel 3</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
