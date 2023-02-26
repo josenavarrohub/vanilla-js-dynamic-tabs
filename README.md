@@ -4,6 +4,7 @@
 
 ## 🦮 ARIA
 The component complies with **ARIA specifications**, in order to provide greater accessibility to all types of users.
+
 [![ARIA specifications](https://github.com/josenavarrohub/vanilla-js-dynamic-tabs/blob/main/demo-aria.png?raw=true)](https://josenavarrohub.github.io/vanilla-js-dynamic-tabs/)
 
 ## Demo
