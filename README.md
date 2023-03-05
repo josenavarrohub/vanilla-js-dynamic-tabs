@@ -1,4 +1,4 @@
-# 🪟 Dynamic tabs in Vanilla Javascript
+# 🪟 Dynamic tabs in Vanilla JavaScript
 
 [![Dynamic tabs in Vanilla Javascript](https://github.com/josenavarrohub/vanilla-js-dynamic-tabs/blob/main/demo.png?raw=true)](https://josenavarrohub.github.io/vanilla-js-dynamic-tabs/)
 
